@@ -1,0 +1,13 @@
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+  
+.navbar-brand {
+  font-weight: 700;
+}
+  
+.card-title {
+  margin-bottom: 0.75rem;
+}
+  

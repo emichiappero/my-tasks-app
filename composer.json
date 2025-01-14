@@ -1,0 +1,28 @@
+{
+    "name": "emiliano/my-tasks-app",
+    "description": "Aplicación web en PHP para la gestión de tareas, con autenticación JWT y MVC",
+    "type": "project",
+    "keywords": ["php", "jwt", "mvc", "tasks"],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Emiliano Chiappero",
+        "email": "emichiappero@gmail.com"
+      }
+    ],
+    "require": {
+      "php": ">=8.0",
+      "firebase/php-jwt": "^6.5",
+      "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\": "app/"
+      }
+    },
+    "scripts": {
+      "start": "php -S localhost:8000 -t public",
+      "test": "phpunit"
+    }
+  }
+  
